@@ -443,7 +443,7 @@ def init_widgets_list():
               widget.Memory(
                        foreground = colors[1],
                        background = colors[6],
-                       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(terminal + ' -e htop')},
+                       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(myTerm + ' -e htop')},
                        fmt = 'Mem: {}',
                        padding = 5
                        ),
