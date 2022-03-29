@@ -25,7 +25,7 @@ keys = [
              lazy.spawn("dmenu_run -p 'Run: '"),
              desc='Run Launcher'
              ),
-         Key([mod], "space",
+         Key([mod], "a",
              lazy.widget["keyboardlayout"].next_keyboard(),
              desc="Next keyboard layout."
              ),
