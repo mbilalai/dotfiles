@@ -6,6 +6,7 @@
 (setq doom-theme 'doom-palenight)
 (setq doom-font(font-spec :family "Mononoki Nerd Font":size 15)
 doom-variable-pitch-font (font-spec :family "Mononoki Nerd Font" :size 15))
+(setq doom-line-numbers-style 'relative)
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
