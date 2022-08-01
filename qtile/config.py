@@ -383,14 +383,14 @@ def init_widgets_list():
                        foreground = colors[0],
                        background = colors[0]
                        ),
-            #   widget.TextBox(
-            #            text = '',
-            #            font = "Ubuntu Mono",
-            #            background = colors[0],
-            #            foreground = colors[3],
-            #            padding = 0,
-            #            fontsize = 37
-            #            ),
+               widget.TextBox(
+                        text = '',
+                        font = "Ubuntu Mono",
+                        background = colors[0],
+                        foreground = colors[3],
+                        padding = 0,
+                        fontsize = 37
+                        ),
              widget.Net(
                        interface = "enp5s0",
                        format = 'Net: {down} ↓↑ {up}',
@@ -398,14 +398,14 @@ def init_widgets_list():
                        background = colors[3],
                        padding = 5
                        ),
-            #   widget.TextBox(
-            #            text = '',
-            #            font = "Ubuntu Mono",
-            #            background = colors[3],
-            #            foreground = colors[4],
-            #            padding = 0,
-            #            fontsize = 37
-            #            ),
+               widget.TextBox(
+                        text = '',
+                        font = "Ubuntu Mono",
+                        background = colors[3],
+                        foreground = colors[4],
+                        padding = 0,
+                        fontsize = 37
+                        ),
               widget.ThermalSensor(
                        foreground = colors[1],
                        background = colors[4],
@@ -413,33 +413,33 @@ def init_widgets_list():
                        fmt = 'Temp: {}',
                        padding = 5
                        ),
-            #   widget.TextBox(
-            #            text='',
-            #            font = "Ubuntu Mono",
-            #            background = colors[4],
-            #            foreground = colors[5],
-            #            padding = 0,
-            #            fontsize = 37
-            #            ),
-            #   widget.CheckUpdates(
-            #            update_interval = 1800,
-            #            distro = "Ubuntu_checkupdates",
-            #            display_format = "Updates: {updates} ",
-            #            foreground = colors[1],
-            #            colour_have_updates = colors[1],
-            #            colour_no_updates = colors[1],
-            #            mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(myTerm + ' -e sudo apt update')},
-            #            padding = 5,
-            #            background = colors[5]
-            #            ),
-            #   widget.TextBox(
-            #            text = '',
-            #            font = "Ubuntu Mono",
-            #            background = colors[5],
-            #            foreground = colors[6],
-            #            padding = 0,
-            #            fontsize = 37
-            #            ),
+               widget.TextBox(
+                        text='',
+                        font = "Ubuntu Mono",
+                        background = colors[4],
+                        foreground = colors[5],
+                        padding = 0,
+                        fontsize = 37
+                        ),
+               widget.CheckUpdates(
+                        update_interval = 1800,
+                        distro = "Ubuntu_checkupdates",
+                        display_format = "Updates: {updates} ",
+                        foreground = colors[1],
+                        colour_have_updates = colors[1],
+                        colour_no_updates = colors[1],
+                        mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(myTerm + ' -e sudo apt update')},
+                        padding = 5,
+                        background = colors[5]
+                        ),
+               widget.TextBox(
+                        text = '',
+                        font = "Ubuntu Mono",
+                        background = colors[5],
+                        foreground = colors[6],
+                        padding = 0,
+                        fontsize = 37
+                        ),
               widget.Memory(
                        foreground = colors[1],
                        background = colors[6],
@@ -447,43 +447,43 @@ def init_widgets_list():
                        fmt = 'Mem: {}',
                        padding = 5
                        ),
-            #   widget.TextBox(
-            #            text = '',
-            #            font = "Ubuntu Mono",
-            #            background = colors[6],
-            #            foreground = colors[7],
-            #            padding = 0,
-            #            fontsize = 37
-            #            ),
+               widget.TextBox(
+                        text = '',
+                        font = "Ubuntu Mono",
+                        background = colors[6],
+                        foreground = colors[7],
+                        padding = 0,
+                        fontsize = 37
+                        ),
               widget.Volume(
                        foreground = colors[1],
                        background = colors[7],
                        fmt = 'Vol: {}',
                        padding = 5
                        ),
-            #   widget.TextBox(
-            #            text = '',
-            #            font = "Ubuntu Mono",
-            #            background = colors[7],
-            #            foreground = colors[8],
-            #            padding = 0,
-            #            fontsize = 37
-            #            ),
+               widget.TextBox(
+                        text = '',
+                        font = "Ubuntu Mono",
+                        background = colors[7],
+                        foreground = colors[8],
+                        padding = 0,
+                        fontsize = 37
+                        ),
               widget.KeyboardLayout(
                        foreground = colors[1],
                        background = colors[8],
-                       configured_keyboards = ['us'],
+                       configured_keyboards = ['us', 'us dvp'],
                        fmt = 'Keyboard: {}',
                        padding = 5
                        ),
-            #   widget.TextBox(
-            #            text = '',
-            #            font = "Ubuntu Mono",
-            #            background = colors[8],
-            #            foreground = colors[9],
-            #            padding = 0,
-            #            fontsize = 37
-            #            ),
+               widget.TextBox(
+                        text = '',
+                        font = "Ubuntu Mono",
+                        background = colors[8],
+                        foreground = colors[9],
+                        padding = 0,
+                        fontsize = 37
+                        ),
               widget.Clock(
                        foreground = colors[1],
                        background = colors[9],
