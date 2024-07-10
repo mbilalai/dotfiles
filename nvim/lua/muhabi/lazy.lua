@@ -19,7 +19,8 @@ require("lazy").setup({
 		-- or                              , branch = '0.1.x',
 		dependencies = { 'nvim-lua/plenary.nvim' }
 	},
-	{ "rose-pine/neovim", name = "rose-pine" },
+--	{ "rose-pine/neovim", name = "rose-pine" },
+        { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...},
 	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
 	{
 		"ThePrimeagen/harpoon",
