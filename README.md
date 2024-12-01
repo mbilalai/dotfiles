@@ -1,1 +1,1 @@
-thinkpad + ubuntu
+macbook air
