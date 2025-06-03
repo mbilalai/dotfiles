@@ -1,1 +1,1 @@
-macbook air + hhkb pro hybrid
+arch/hyprland
