@@ -1,1 +1,1 @@
-arch/hyprland
+omarchy
