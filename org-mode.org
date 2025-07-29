@@ -1,0 +1,68 @@
+#+title: Org Mode Basics In Doom Emacs
+#+DESCRIPTION: An Org Mode document to learn orgmode in emacs"
+
+* A New Document
+** level 2 heading
+*** level3 heading
+
+* Getting started in Org Mode
+Read org mode manual with M-x org-info.
+org-toggle-heading: SPC-m-h , SPC-m-i (item instead of heading)
+
++ sign for un-ordered list, or - sign
+  1. numbers for ordered list
+     hit TAB to toggle lists (shift-TAB) to fold the entirety of the doc
+     or z-c/z-o to toggle the lists. z-m/z-r to fold/unfold the entire buffer
+
+* Motions
+** move left/down/up/right : h/j/k/l
+** next/prev heading : gj/gk OR CTR-j/k
+** move parent/child element : gh/gl
+
+* Structure Editing
+** insert new heading after subtree : C-RETURN
+** promote/demote heading : M-h/l OR M-LEFT/RIGHT
+** promote/demote current subtree : M-S-h/l OR M-S-LEFT/RIGHT
+** move subtree/list item up/down : M-j/k
+** move list item up/down but not subtree : M-S-j/k
+* Some advanced editing: Evil Mode!
+** select an element : vae
+** delete an element : dae
+** select a subtree : vaR
+** delete subtree : daR
+** yank subtree : yiR
+
+* Insert Snippets?
+** SPC-i-s
+
+* TODO Set TAGS with : SPC-m-q :TODO:
+** TODO example one
+** to remove TODO S-LEFT
+** toggle the todo state : SPC-m-t
+** org-schedule : SPC-m-s
+
+* To create a checkbox : - [ ] [1/2] [50%]
+- [ ] C-c C-c OR RETURN to toggle the checkboxes
+- [X]
+  ** Move this file to front of agenda : C-c-[
+
+** Org-agenda : SPC-o-aa
+
+* Tables:
+| just | start         | typing   | with      | the | pipe  | operator |
+|------+---------------+----------+-----------+-----+-------+----------|
+| Make | org-table     | headline | SPC m b - |     |       |          |
+|------+---------------+----------+-----------+-----+-------+----------|
+| ctrl | enter         | to       | replicate | the | table |          |
+| ctrl | tab/shift-tab | to       | move f/b  | in  | the   | cells    |
+|      |               |          |           |     |       |          |
+
+** Table Motions
+*** Move current row UP : M-k
+*** Move current row DOWN : M-j
+*** Move current row LEFT: M-h
+*** Move current row RIGHT: M-l
+*** Insert new column : M-S-l
+*** Delete current column : M-S-h
+*** Insert new row : M-S-j
+*** Delete current row : M-S-k
