@@ -1,1 +1,1 @@
-omarchy
+deprecated
